@@ -1,6 +1,6 @@
 {
-  "version": "1.4.16",
+  "version": "1.4.17",
   "releaseDate": "2026-10-28",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.16/RaPiDSSH-v1.4.16-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.16:\n\n• Backup Completo Cifrato (.rsbak): esportazione e ripristino con password protetta di tutte le impostazioni, griglie e database delle connessioni (.enc) in un unico file compresso\n• Finestra Informazioni (About): aggiornato il link ufficiale al repository di distribuzione e release (cgabba/RaPiDSSH_release) con apertura rapida nel browser"
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.17/RaPiDSSH-v1.4.17-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.17:\n\n  Fix Tema Grafico SCP/SFTP: risolto il problema di contrasto dei colori nella lista file (intestazioni colonne scure con testo leggibile, selezione file con sfondo ad alto contrasto dark e testi perfettamente visibili)"
 }
