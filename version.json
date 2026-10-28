@@ -1,6 +1,6 @@
 {
-  "version": "1.4.18",
+  "version": "1.4.19",
   "releaseDate": "2026-10-28",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.18/RaPiDSSH-v1.4.18-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.18:\n\n  • Standardizzazione e unificazione menu contestuali (TreeView e schede sessioni con opzioni allineate e raggruppate coerentemente)\n  • Gestione massiva cartelle: aggiunto comando di Disconnessione rapida per tutti i server attivi nella cartella (allineato a 'Connetti tutti' e 'Riconnetti attivi')\n  • Fix Tema Grafico: risolto il problema grafico dei pulsanti disabilitati (come durante il download degli aggiornamenti) con stile scuro e testo sempre visibile"
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.19/RaPiDSSH-v1.4.19-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.19:\n\n  • Icona Preferiti a Colori: l'icona della stella dei preferiti è ora di colore oro/giallo vivo sia nell'albero (cartella e server) che nei menu contestuali (TreeView e schede sessioni)\n  • Fix Finestra Download Aggiornamento: risolto il taglio dell'altezza nella finestra di download alla chiusura, rendendo il pulsante 'Chiudi subito senza aggiornare' interamente visibile\n  • Fix Finestra Installazione Aggiornamento: risolto il ritorno a capo (escape sequence `n) e il troncamento orizzontale del testo di completamento aggiornamento"
 }
