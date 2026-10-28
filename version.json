@@ -1,0 +1,6 @@
+{
+  "version": "1.4.14",
+  "releaseDate": "2026-10-28",
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.14/RaPiDSSH-v1.4.14-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.14:\n\n• Cartella di default per file di connessioni .enc impostata permanentemente sulla radice della versione portable (e non in bin/)\n• Creazione automatica garantita della cartella Logs nella radice portable all'avvio dell'applicazione"
+}
