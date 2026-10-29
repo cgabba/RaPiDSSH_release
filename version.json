@@ -1,6 +1,6 @@
 {
-  "version": "1.4.26",
+  "version": "1.4.27",
   "releaseDate": "2026-10-29",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.26/RaPiDSSH-v1.4.26-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.26:\n\n  • Nuova Scheda / Dashboard del Server: visualizzazione immediata delle specifiche complete (host, porta, protocollo, cartella, credenziali risolte, tag) e pulsanti per azioni rapide (apertura sessione, accedi come, visualizzazione password, ping, SFTP, proprietà)\n  • Note & Documentazione Integrata: editor per appunti e documentazione tecnica associata a ciascun server, salvato e cifrato con AES-256 nel database .enc\n  • Navigazione Intelligente: il clic singolo su un server passa alla sessione attiva se già aperto, oppure apre la dashboard se disconnesso (opzione abilitabile/disabilitabile da Impostazioni)\n  • Nuova Finestra Impostazioni Unificata: configurazione centralizzata con sezioni Generale, Aspetto & Tema, Sicurezza, Aggiornamenti e Diagnostica\n  • Riorganizzazione Menu Principale: struttura pulita e lineare con menu File, Visualizza, Strumenti e Aiuto"
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.27/RaPiDSSH-v1.4.27-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.27:\n\n  • Evidenziazione Note Compilate: la scheda 'Documentazione & Note' nella dashboard del server mostra ora un badge evidente '● Compilato' in verde/teal quando il server include annotazioni salvate\n  • Indicatore in Panoramica: aggiunta nella scheda Panoramica la riga 'Note & Documentazione' con indicatore di presenza e pulsante di navigazione diretta alla scheda note\n  • Aggiornamento Reattivo in Tempo Reale: l'indicatore e il badge si aggiornano istantaneamente durante la digitazione, l'annullamento o il salvataggio delle note"
 }
