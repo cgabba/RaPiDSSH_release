@@ -1,6 +1,6 @@
 {
-  "version": "1.4.27",
+  "version": "1.4.28",
   "releaseDate": "2026-10-29",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.27/RaPiDSSH-v1.4.27-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.27:\n\n  • Evidenziazione Note Compilate: la scheda 'Documentazione & Note' nella dashboard del server mostra ora un badge evidente '● Compilato' in verde/teal quando il server include annotazioni salvate\n  • Indicatore in Panoramica: aggiunta nella scheda Panoramica la riga 'Note & Documentazione' con indicatore di presenza e pulsante di navigazione diretta alla scheda note\n  • Aggiornamento Reattivo in Tempo Reale: l'indicatore e il badge si aggiornano istantaneamente durante la digitazione, l'annullamento o il salvataggio delle note"
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.28/RaPiDSSH-v1.4.28-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.28:\n\n  • Tag di Sistema Automatico 'Documentato' (📝): introdotto un tag di sistema gestito dinamicamente dall'applicazione per tutti i server con note o documentazione compilata. Il tag raggruppa automaticamente i server nell'albero delle connessioni sotto 'TAG ➔ 📝 Documentato'\n  • Gestione Riservata: il tag è interamente controllato dal sistema e non può essere impostato o rimosso manualmente dall'utente\n  • Sincronizzazione Immediata: all'aggiunta, modifica o cancellazione delle note nella scheda del server, il tag viene sincronizzato in tempo reale aggiornando l'albero e i filtri di ricerca"
 }
