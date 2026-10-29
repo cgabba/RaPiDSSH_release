@@ -2,19 +2,17 @@
 
 Repository ufficiale per la distribuzione e l'aggiornamento automatico di **RaPiDSSH** (Remote Desktop & SSH Session Manager).
 
-## 🚀 Ultima Versione: **v1.4.26**
+## 🚀 Ultima Versione: **v1.4.27**
 - **Data rilascio**: 2026-10-29
-- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.26-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.26/RaPiDSSH-v1.4.26-Portable.zip)
+- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.27-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.27/RaPiDSSH-v1.4.27-Portable.zip)
 - **Feed Manifest Aggiornamenti**: [version.json](https://raw.githubusercontent.com/cgabba/RaPiDSSH_release/main/version.json)
 
 ### Novità di questa versione:
-Novità di RaPiDSSH v1.4.26:
+Novità di RaPiDSSH v1.4.27:
 
-  • Nuova Scheda / Dashboard del Server: visualizzazione immediata delle specifiche complete (host, porta, protocollo, cartella, credenziali risolte, tag) e pulsanti per azioni rapide (apertura sessione, accedi come, visualizzazione password, ping, SFTP, proprietà)
-  • Note & Documentazione Integrata: editor per appunti e documentazione tecnica associata a ciascun server, salvato e cifrato con AES-256 nel database .enc
-  • Navigazione Intelligente: il clic singolo su un server passa alla sessione attiva se già aperto, oppure apre la dashboard se disconnesso (opzione abilitabile/disabilitabile da Impostazioni)
-  • Nuova Finestra Impostazioni Unificata: configurazione centralizzata con sezioni Generale, Aspetto & Tema, Sicurezza, Aggiornamenti e Diagnostica
-  • Riorganizzazione Menu Principale: struttura pulita e lineare con menu File, Visualizza, Strumenti e Aiuto
+  • Evidenziazione Note Compilate: la scheda 'Documentazione & Note' nella dashboard del server mostra ora un badge evidente '● Compilato' in verde/teal quando il server include annotazioni salvate
+  • Indicatore in Panoramica: aggiunta nella scheda Panoramica la riga 'Note & Documentazione' con indicatore di presenza e pulsante di navigazione diretta alla scheda note
+  • Aggiornamento Reattivo in Tempo Reale: l'indicatore e il badge si aggiornano istantaneamente durante la digitazione, l'annullamento o il salvataggio delle note
 
 ---
 *Per il codice sorgente e la documentazione del progetto, visitare il repository principale.*
