@@ -1,6 +1,6 @@
 {
-  "version": "1.4.24",
+  "version": "1.4.25",
   "releaseDate": "2026-10-29",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.24/RaPiDSSH-v1.4.24-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.24:\n\n  • Autologin Sessioni Telnet: implementata procedura automatica e sequenziale di autenticazione Telnet con rilevamento intelligente dei prompt (Username:, login:, Password:, Passcode:), pulizia sequenze di escape ANSI e gestione banner iniziali ('Press any key to continue')\n  • Pulsanti Rapidi Credenziali Telnet: aggiunti pulsanti dedicati nella barra della sessione per '⚡ Autologin', '👤 User' e '🔑 Password' con disattivazione trasparente in caso di digitazione manuale dell'utente"
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.25/RaPiDSSH-v1.4.25-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.25:\n\n  • Hotfix Tag e Cartelle Speciali: risolto arresto anomalo (ArgumentException: An item with the same key has already been added) durante l'applicazione o l'aggiornamento dei tag sui server causato da duplicazione di chiavi per tag di sistema canonici/normalizzati in UpdateSpecialFolders\n  • Resilienza Raggruppamento Tag: introdotto dizionario protetto contro collisioni e raggruppamento canonico dei tag per prevenire doppioni nell'albero delle cartelle"
 }
