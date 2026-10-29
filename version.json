@@ -1,6 +1,6 @@
 {
-  "version": "1.4.19",
-  "releaseDate": "2026-10-28",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.19/RaPiDSSH-v1.4.19-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.19:\n\n  • Icona Preferiti a Colori: l'icona della stella dei preferiti è ora di colore oro/giallo vivo sia nell'albero (cartella e server) che nei menu contestuali (TreeView e schede sessioni)\n  • Fix Finestra Download Aggiornamento: risolto il taglio dell'altezza nella finestra di download alla chiusura, rendendo il pulsante 'Chiudi subito senza aggiornare' interamente visibile\n  • Fix Finestra Installazione Aggiornamento: risolto il ritorno a capo (escape sequence `n) e il troncamento orizzontale del testo di completamento aggiornamento"
+  "version": "1.4.20",
+  "releaseDate": "2026-10-29",
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.20/RaPiDSSH-v1.4.20-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.20:\n\n  • Supporto Nativo Protocollo Telnet (RFC 854): aggiunta gestione completa di sessioni Telnet (porta 23 di default o personalizzata) con icona 📟, negoziazione automatica opzioni (ECHO, SGA, NAWS per ridimensionamento finestra, Terminal-Type), supporto completo scorciatoie da tastiera, ricerca nel terminale (Ctrl+Shift+F), buffer di scorrimento e pulsante \"🔑 Digita Password\"\n  • Integrazione Globale Telnet: supporto completo nelle schede sessione, in Vista a Griglia (Grid View), import/export CSV e finestra di monitoraggio riavvio"
 }
