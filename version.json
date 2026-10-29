@@ -1,6 +1,6 @@
 {
-  "version": "1.4.22",
+  "version": "1.4.23",
   "releaseDate": "2026-10-29",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.22/RaPiDSSH-v1.4.22-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.22:\n\n  • Tema Scuro Globale per ComboBox e Menu a Discesa: introdotto stile e template dark uniforme in tutta l'applicazione per tutti i ComboBox (sfondo scuro #2D2D30, freccia coordinata, popup scuro ed evidenziazione blu #094771), risolvendo il problema dei controlli bianchi ereditati dal tema di sistema Windows nella finestra di Importazione CSV e nelle finestre secondarie\n  • Perfezionamento Grafico Wizard CSV: uniformata l'interfaccia di associazione colonne con contrasto ottimale e piena coerenza estetica dark"
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.23/RaPiDSSH-v1.4.23-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.23:\n\n  • Hotfix Avvio Applicazione: risolto errore critico di inizializzazione risorse XAML all'avvio introdotto nella v1.4.22 che impediva l'apertura di RaPiDSSH\n  • Tema Scuro ComboBox e Controlli: applicato correttamente lo stile scuro globale senza conflitti di dizionario delle risorse"
 }
