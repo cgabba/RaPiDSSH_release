@@ -2,16 +2,19 @@
 
 Repository ufficiale per la distribuzione e l'aggiornamento automatico di **RaPiDSSH** (Remote Desktop & SSH Session Manager).
 
-## 🚀 Ultima Versione: **v1.4.25**
+## 🚀 Ultima Versione: **v1.4.26**
 - **Data rilascio**: 2026-10-29
-- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.25-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.25/RaPiDSSH-v1.4.25-Portable.zip)
+- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.26-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.26/RaPiDSSH-v1.4.26-Portable.zip)
 - **Feed Manifest Aggiornamenti**: [version.json](https://raw.githubusercontent.com/cgabba/RaPiDSSH_release/main/version.json)
 
 ### Novità di questa versione:
-Novità di RaPiDSSH v1.4.25:
+Novità di RaPiDSSH v1.4.26:
 
-  • Hotfix Tag e Cartelle Speciali: risolto arresto anomalo (ArgumentException: An item with the same key has already been added) durante l'applicazione o l'aggiornamento dei tag sui server causato da duplicazione di chiavi per tag di sistema canonici/normalizzati in UpdateSpecialFolders
-  • Resilienza Raggruppamento Tag: introdotto dizionario protetto contro collisioni e raggruppamento canonico dei tag per prevenire doppioni nell'albero delle cartelle
+  • Nuova Scheda / Dashboard del Server: visualizzazione immediata delle specifiche complete (host, porta, protocollo, cartella, credenziali risolte, tag) e pulsanti per azioni rapide (apertura sessione, accedi come, visualizzazione password, ping, SFTP, proprietà)
+  • Note & Documentazione Integrata: editor per appunti e documentazione tecnica associata a ciascun server, salvato e cifrato con AES-256 nel database .enc
+  • Navigazione Intelligente: il clic singolo su un server passa alla sessione attiva se già aperto, oppure apre la dashboard se disconnesso (opzione abilitabile/disabilitabile da Impostazioni)
+  • Nuova Finestra Impostazioni Unificata: configurazione centralizzata con sezioni Generale, Aspetto & Tema, Sicurezza, Aggiornamenti e Diagnostica
+  • Riorganizzazione Menu Principale: struttura pulita e lineare con menu File, Visualizza, Strumenti e Aiuto
 
 ---
 *Per il codice sorgente e la documentazione del progetto, visitare il repository principale.*
