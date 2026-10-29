@@ -1,6 +1,6 @@
 {
-  "version": "1.4.28",
+  "version": "1.4.29",
   "releaseDate": "2026-10-29",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.28/RaPiDSSH-v1.4.28-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.28:\n\n  • Tag di Sistema Automatico 'Documentato' (📝): introdotto un tag di sistema gestito dinamicamente dall'applicazione per tutti i server con note o documentazione compilata. Il tag raggruppa automaticamente i server nell'albero delle connessioni sotto 'TAG ➔ 📝 Documentato'\n  • Gestione Riservata: il tag è interamente controllato dal sistema e non può essere impostato o rimosso manualmente dall'utente\n  • Sincronizzazione Immediata: all'aggiunta, modifica o cancellazione delle note nella scheda del server, il tag viene sincronizzato in tempo reale aggiornando l'albero e i filtri di ricerca"
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.29/RaPiDSSH-v1.4.29-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.29:\n\n  • Backup Automatico Completo Cifrato (.rsbak): archiviazione automatica non presidiata in background di tutte le impostazioni, configurazioni griglie e tutti i file di database connessioni (.enc) con crittografia standard bancario AES-256-GCM\n  • Trigger Configurabili: esecuzione configurabile all'avvio, alla chiusura dell'applicazione o al salvataggio manuale\n  • Protezione Trasparente DPAPI: la password del backup automatico è memorizzata in modo sicuro tramite Windows DPAPI legato all'utente locale senza richiedere popup di conferma all'uscita\n  • Politica di Retention e Rotazione: rotazione cronologica automatica con limite personalizzabile del numero di copie e dei giorni di conservazione\n  • Nuova Scheda 'Backup Automatico' nelle Impostazioni e comandi rapidi nel menu Strumenti"
 }
