@@ -2,16 +2,17 @@
 
 Repository ufficiale per la distribuzione e l'aggiornamento automatico di **RaPiDSSH** (Remote Desktop & SSH Session Manager).
 
-## 🚀 Ultima Versione: **v1.4.32**
+## 🚀 Ultima Versione: **v1.4.33**
 - **Data rilascio**: 2026-10-30
-- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.32-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.32/RaPiDSSH-v1.4.32-Portable.zip)
+- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.33-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.33/RaPiDSSH-v1.4.33-Portable.zip)
 - **Feed Manifest Aggiornamenti**: [version.json](https://raw.githubusercontent.com/cgabba/RaPiDSSH_release/main/version.json)
 
 ### Novità di questa versione:
-Novità di RaPiDSSH v1.4.32:
+Novità di RaPiDSSH v1.4.33:
 
-  • Scheda Panoramica per Cartelle e Database (.enc): cliccando su una cartella o su un archivio database nell'albero appare la scheda informativa dedicata con riepilogo contenuti, conteggio server ricorsivo e per protocollo (SSH, RDP, Telnet), credenziali ereditate e tabella navigabile dei server. Dalla colonna sinistra sono disponibili azioni rapide a 1-click come 'Connetti Tutti', 'Apri in Grid View', 'Nuovo Server' e 'Proprietà Cartella'
-  • Fix Occhietto Password (Hold-to-Reveal): corretto il comportamento dell'icona occhietto nella finestra credenziali. La pressione prolungata del tasto del mouse svela temporaneamente la password senza attivare la checkbox permanente, e al rilascio del click la password torna rigorosamente mascherata
+  • Ripristino Prompt su 'Pulisci Schermo' (SSH & Telnet): il comando 'Pulisci Schermo' invia ora la sequenza standard Form Feed (Ctrl+L / Ctrl+L) alla shell remota. Il terminale viene ripulito e la shell ridisegna istantaneamente il prompt attivo in cima allo schermo con il comando corrente
+  • Correzione Dimensioni Finestra 'Accedi come...': rimossa l'altezza fissa rigida e introdotto SizeToContent con margini ariosi, evitando che i pulsanti e il campo password vengano tagliati o compressi a seconda dei DPI
+  • Miglioramento Contrasto e Supporto Tema Chiaro: convertiti i dialoghi modali e gli elementi della GUI alle risorse di stile dinamiche (ThemeMainBackground, ThemeForeground, ThemeBorderBrush), garantendo perfetta leggibilità e contrasto elevato in modalità Chiara
 
 ---
 *Per il codice sorgente e la documentazione del progetto, visitare il repository principale.*
