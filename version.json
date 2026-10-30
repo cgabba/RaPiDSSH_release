@@ -1,6 +1,6 @@
 {
-  "version": "1.4.30",
-  "releaseDate": "2026-10-29",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.30/RaPiDSSH-v1.4.30-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.30:\n\n  • Mini-rail Laterale & Icona Hamburger (☰): compressione compatta a 36px della finestra 'Gestione Server' con icona hamburger e testo verticale orientato. L'intera barra compressa è interattiva e cliccabile per riaprire istantaneamente l'albero\n  • Toolbar Superiore Semplificata: rimossi i pulsanti ridondanti 'Salva Modifiche', 'Nascondi Albero' e 'Sposta a SX/DX' dalla barra superiore per un'interfaccia moderna, snella e focalizzata\n  • Controlli Rapidi Integrati: pulsanti per invertire posizione (⇄) e comprimere (☰ / ✕) integrati direttamente nella testata del pannello Gestione Server"
+  "version": "1.4.31",
+  "releaseDate": "2026-10-30",
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.31/RaPiDSSH-v1.4.31-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.31:\n\n  • Nuova Finestra Credenziali Protetta (ViewCredentialsDialog): quando si clicca su 'Mostra Password' nella dashboard del server, appare un dialogo moderno dedicato con 3 campi distinti (Dominio, Utente, Password) ciascuno dotato di pulsante copia rapida. La password rimane mascherata (••••••) per proteggere da shoulder-surfing e può essere rivelata tenendo premuto o cliccando l'icona occhietto (👁️) oppure tramite la spunta 'Mostra password in chiaro'\n  • Spostamento Server Multipli (Multi-Select Drag & Drop): corretta la gestione del trascinamento quando sono selezionati più server tramite Ctrl+Click o Shift+Click; il drop in una cartella sposta ora l'intero gruppo di server selezionati preservando la selezione attiva e ri-cifrando automaticamente le credenziali se lo spostamento avviene tra file .enc distinti"
 }
