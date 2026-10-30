@@ -2,17 +2,18 @@
 
 Repository ufficiale per la distribuzione e l'aggiornamento automatico di **RaPiDSSH** (Remote Desktop & SSH Session Manager).
 
-## 🚀 Ultima Versione: **v1.4.34**
+## 🚀 Ultima Versione: **v1.4.35**
 - **Data rilascio**: 2026-10-30
-- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.34-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.34/RaPiDSSH-v1.4.34-Portable.zip)
+- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.35-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.35/RaPiDSSH-v1.4.35-Portable.zip)
 - **Feed Manifest Aggiornamenti**: [version.json](https://raw.githubusercontent.com/cgabba/RaPiDSSH_release/main/version.json)
 
 ### Novità di questa versione:
-Novità di RaPiDSSH v1.4.34:
+Novità di RaPiDSSH v1.4.35:
 
-  • Contrasto e Stile Modalità Chiara Ottimizzati: schede sessione principali e interne convertite a colori chiari ad alto contrasto con accento dinamico (evitando barre nere nel tema chiaro), nomi dei server in blu profondo (ThemeTreeServerForeground), database in verde bosco scuro e pulsanti della toolbar dinamici
-  • Connessione Rapida VNC Integrata (Quick VNC): nuovo pulsante '⚡ VNC Rapido' nella toolbar e comando 'Strumenti ➔ Connessione Rapida VNC (Ctrl+Shift+V)' per connettersi istantaneamente a qualsiasi client PC aziendale senza salvare il server nell'albero
-  • Ereditarietà Credenziali Dominio VNC: supporto automatico alle credenziali di Active Directory (Dominio\Utente e password cifrata ereditate) o password VNC standard, con rendering integrato in scheda (WriteableBitmap BGR32) ed eventi mouse/tastiera (incluso pulsante rapido Ctrl+Alt+Canc)
+  • Perfezionamento Grafico Tema Chiaro: nomi dei server impostati in nero pieno ad altissima leggibilità (#1E1E1E) e icone server in azzurro moderno (#0078D7) con triangolino play verde (#2ECC71) per le connessioni attive
+  • Schede Sessioni & Dashboard Dinamiche: la barra dei tab, le intestazioni create dinamicamente e le schede dashboard ora ereditano correttamente i colori del tema chiaro senza barre nere o testo sbiancato
+  • Barre Superiori delle Sessioni RDP, SSH e Telnet: TopBar e pulsanti di controllo (Riconnetti, Pulisci, Zoom, Chiudi Scheda) sincronizzati dinamicamente al tema chiaro
+  • Tag Pill e Menu Contestuale: badge dei tag ridisegnati in stile soft badge azzurro tenue (#E1F0FA / #005A9E) nel tema chiaro, eliminando i vecchi blocchi scuri hardcoded
 
 ---
 *Per il codice sorgente e la documentazione del progetto, visitare il repository principale.*
