@@ -2,16 +2,16 @@
 
 Repository ufficiale per la distribuzione e l'aggiornamento automatico di **RaPiDSSH** (Remote Desktop & SSH Session Manager).
 
-## 🚀 Ultima Versione: **v1.4.49**
+## 🚀 Ultima Versione: **v1.4.50**
 - **Data rilascio**: 2026-11-02
-- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.49-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.49/RaPiDSSH-v1.4.49-Portable.zip)
+- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.50-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.50/RaPiDSSH-v1.4.50-Portable.zip)
 - **Feed Manifest Aggiornamenti**: [version.json](https://raw.githubusercontent.com/cgabba/RaPiDSSH_release/main/version.json)
 
 ### Novità di questa versione:
-Novità di RaPiDSSH v1.4.49:
+Novità di RaPiDSSH v1.4.50:
 
-• Ottimizzazione Processo di Aggiornamento: risolto il problema di sovrascrittura file bloccati durante l'aggiornamento automatico (terminazione garantita delle istanze orfane in background e chiusura immediata delle risorse COM/RDP tramite Environment.Exit).
-• Robustezza di Copia: aggiunto fallback con verifica di sovrascrittura e tentativi multipli estesi a livello di script di aggiornamento.
+• Fix Crash Scheda Dischi Gestione Remota: risolta l'eccezione XamlParseException sulla proprietà di sola lettura 'PercentUsed' della ProgressBar dei dischi (applicato Mode=OneWay e setter compatibile).
+• Stabilità e Riavvio: gestione robusta della visualizzazione spazio disco e delle condivisioni di rete senza blocchi UI.
 
 ---
 *Per il codice sorgente e la documentazione del progetto, visitare il repository principale.*
