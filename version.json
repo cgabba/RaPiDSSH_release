@@ -1,6 +1,6 @@
 {
-  "version": "1.4.42",
+  "version": "1.4.43",
   "releaseDate": "2026-11-02",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.42/RaPiDSSH-v1.4.42-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.42:\n\n• Contrasto e Selezione Tema Chiaro: selezione degli elementi nell'albero server aggiornata con azzurro chiaro ad alto contrasto (#CCE8FF) per garantire perfetta leggibilità di tutti i testi e nodi.\n• Gestione Selezione Inattiva: risolto il problema di contrasto nel tema scuro quando la casella di ricerca prende il focus (gestione colore di selezione inattiva nativa)."
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.43/RaPiDSSH-v1.4.43-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.43:\n\n• Finestre Flottanti Indipendenti (Dock / Undock): possibilità di sganciare qualsiasi sessione attiva (SSH, RDP, Telnet, VNC, Griglie, SFTP, Ping) in una finestra indipendente separata tramite click destro sul server o sulla scheda, pulsante rapido 🗗 o drag&drop della linguetta. Riaggancio immediato con un clic.\n• Chiusura Controllata Finestre Flottanti: la chiusura con ✕ della finestra indipendente gestisce la disconnessione e i prompt di logoff identicamente alle schede principali.\n• Fix Contrasto Proprietà Cartella & Dialoghi: griglia icone e intestazioni del dialogo proprietà cartella convertite a temi dinamici per una perfetta visibilità in modalità chiara e scura."
 }
