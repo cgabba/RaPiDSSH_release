@@ -1,6 +1,6 @@
 {
-  "version": "1.4.49",
+  "version": "1.4.50",
   "releaseDate": "2026-11-02",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.49/RaPiDSSH-v1.4.49-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.49:\n\n• Ottimizzazione Processo di Aggiornamento: risolto il problema di sovrascrittura file bloccati durante l'aggiornamento automatico (terminazione garantita delle istanze orfane in background e chiusura immediata delle risorse COM/RDP tramite Environment.Exit).\n• Robustezza di Copia: aggiunto fallback con verifica di sovrascrittura e tentativi multipli estesi a livello di script di aggiornamento."
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.50/RaPiDSSH-v1.4.50-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.50:\n\n• Fix Crash Scheda Dischi Gestione Remota: risolta l'eccezione XamlParseException sulla proprietà di sola lettura 'PercentUsed' della ProgressBar dei dischi (applicato Mode=OneWay e setter compatibile).\n• Stabilità e Riavvio: gestione robusta della visualizzazione spazio disco e delle condivisioni di rete senza blocchi UI."
 }
