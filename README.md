@@ -2,17 +2,17 @@
 
 Repository ufficiale per la distribuzione e l'aggiornamento automatico di **RaPiDSSH** (Remote Desktop & SSH Session Manager).
 
-## 🚀 Ultima Versione: **v1.4.44**
+## 🚀 Ultima Versione: **v1.4.45**
 - **Data rilascio**: 2026-11-02
-- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.44-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.44/RaPiDSSH-v1.4.44-Portable.zip)
+- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.45-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.45/RaPiDSSH-v1.4.45-Portable.zip)
 - **Feed Manifest Aggiornamenti**: [version.json](https://raw.githubusercontent.com/cgabba/RaPiDSSH_release/main/version.json)
 
 ### Novità di questa versione:
-Novità di RaPiDSSH v1.4.44:
+Novità di RaPiDSSH v1.4.45:
 
-• Fix Crash Chiusura Finestre Flottanti: risolta l'eccezione InvalidOperationException che si verificava alla chiusura della finestra indipendente tramite 'X' (gestione sincrona e pulita del ciclo di vita della finestra in OnClosing senza chiamate Close() concorrenti).
-• Dock / Undock Sessioni Flottanti: possibilità di sganciare qualsiasi sessione attiva in una finestra indipendente da scheda, tasto destro server o drag&drop, con opzione Always on Top e riaggancio rapido.
-• Fix Contrasto Proprietà Cartella & Dialoghi: griglia icone e testi convertiti a temi dinamici per perfetta visibilità in modalità chiara e scura.
+• Ottimizzazione Layout Finestra Flottante: rimossa l'intera riga di intestazione duplicata ('Finestra Flottante: ...') per guadagnare prezioso spazio verticale a favore del terminale o del desktop remoto.
+• Controlli Integrati nella Barra della Sessione: la spunta '📌 Sempre in primo piano' e il pulsante '📥 Riaggancia' sono stati inseriti direttamente a fianco dei controlli nativi della sessione staccata (e rimossi automaticamente al riaggancio nelle schede).
+• Ciclo di vita stabile: gestione chiusura pulita e sincronizzata per prevenire qualsiasi conflitto con il dispatcher di WPF.
 
 ---
 *Per il codice sorgente e la documentazione del progetto, visitare il repository principale.*
