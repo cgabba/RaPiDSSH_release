@@ -1,6 +1,6 @@
 {
-  "version": "1.4.50",
-  "releaseDate": "2026-11-02",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.50/RaPiDSSH-v1.4.50-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.50:\n\n• Fix Crash Scheda Dischi Gestione Remota: risolta l'eccezione XamlParseException sulla proprietà di sola lettura 'PercentUsed' della ProgressBar dei dischi (applicato Mode=OneWay e setter compatibile).\n• Stabilità e Riavvio: gestione robusta della visualizzazione spazio disco e delle condivisioni di rete senza blocchi UI."
+  "version": "1.4.51",
+  "releaseDate": "2026-11-03",
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.51/RaPiDSSH-v1.4.51-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.51:\n\n• Fix Apertura Gestione Remota Windows: risolta eccezione NullReferenceException all'apertura causata da archivi/proprietà non inizializzati e aggiunti controlli protettivi con dettagli estesi di diagnostica.\n• Contrasto e Colori Celle SFTP: corretta la formattazione dei colori di selezione e passaggio del mouse in tema chiaro e scuro per garantire leggibilità ottimale.\n• Cerca Server: introdotto il pulsante rapido 'ⓧ' per cancellare istantaneamente il testo di ricerca e ripristinare il focus."
 }
