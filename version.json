@@ -1,6 +1,6 @@
 {
-  "version": "1.4.51",
-  "releaseDate": "2026-11-03",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.51/RaPiDSSH-v1.4.51-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.51:\n\n• Fix Apertura Gestione Remota Windows: risolta eccezione NullReferenceException all'apertura causata da archivi/proprietà non inizializzati e aggiunti controlli protettivi con dettagli estesi di diagnostica.\n• Contrasto e Colori Celle SFTP: corretta la formattazione dei colori di selezione e passaggio del mouse in tema chiaro e scuro per garantire leggibilità ottimale.\n• Cerca Server: introdotto il pulsante rapido 'ⓧ' per cancellare istantaneamente il testo di ricerca e ripristinare il focus."
+  "version": "1.4.52",
+  "releaseDate": "2026-11-04",
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.52/RaPiDSSH-v1.4.52-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.52:\n\n• Cartella di Sistema Connessioni Recenti: introdotta la cartella speciale '🕒 Connessioni Recenti' nell'albero che tiene traccia automaticamente delle ultime 5 connessioni aperte con persistenza tra i riavvii.\n• Mostra / Nascondi Cartelle di Sistema: possibilità di nascondere o mostrare singolarmente ciascuna cartella speciale (Recenti, Preferiti, Connessioni Attive, Tutti i Server, Tag, Griglie Salvate) tramite il pulsante ⚙️ sopra l'albero, dal menu contestuale tasto destro sull'albero e dal menu 'Visualizza'.\n• Evidenziazione Tab Attivo: riprogettato lo stile delle schede di sessione con indicatore superiore ad alto contrasto di 3px, bordo evidenziato, testo in grassetto e risalto visivo immediato."
 }
