@@ -2,16 +2,17 @@
 
 Repository ufficiale per la distribuzione e l'aggiornamento automatico di **RaPiDSSH** (Remote Desktop & SSH Session Manager).
 
-## 🚀 Ultima Versione: **v1.4.53**
+## 🚀 Ultima Versione: **v1.4.54**
 - **Data rilascio**: 2026-11-04
-- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.53-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.53/RaPiDSSH-v1.4.53-Portable.zip)
+- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.54-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.54/RaPiDSSH-v1.4.54-Portable.zip)
 - **Feed Manifest Aggiornamenti**: [version.json](https://raw.githubusercontent.com/cgabba/RaPiDSSH_release/main/version.json)
 
 ### Novità di questa versione:
-Novità di RaPiDSSH v1.4.53:
+Novità di RaPiDSSH v1.4.54:
 
-• Colore Sfondo Tab Attivo: la scheda attiva ora assume un colore di sfondo pieno e vivido (#0E639C in tema scuro, #CCE8FF in tema chiaro) per renderla immediatamente distinguibile rispetto alle schede inattive.
-• Indicatori Visivi Spunta Menu Cartelle di Sistema: risolto il problema di mancata visualizzazione dello stato nei menu a tendina; introdotto supporto completo ai checkmark (✓) nei MenuItem e aggiunti prefissi visivi espliciti [✓] / [  ] per identificare all'istante quali cartelle sono visibili o nascoste.
+• Persistenza Sessioni e Tema dopo Aggiornamento: risolto il problema per cui l'aggiornamento automatico non salvava le sessioni aperte né il tema impostato, garantendo il ripristino affidabile delle sessioni alla riapertura dell'applicazione.
+• Correzione Glifi di Spunta Menu: rimossa la duplicazione del carattere di spunta nei menu di visibilità delle cartelle di sistema.
+• Contrasto e Nitidezza Albero Server: ripristinato il corretto contrasto e colore pieno dei server disconnessi, evitando che appaiano sbiaditi o disabilitati in presenza di connessioni attive.
 
 ---
 *Per il codice sorgente e la documentazione del progetto, visitare il repository principale.*
