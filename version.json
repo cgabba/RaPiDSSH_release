@@ -1,6 +1,6 @@
 {
-  "version": "1.4.53",
+  "version": "1.4.54",
   "releaseDate": "2026-11-04",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.53/RaPiDSSH-v1.4.53-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.53:\n\n• Colore Sfondo Tab Attivo: la scheda attiva ora assume un colore di sfondo pieno e vivido (#0E639C in tema scuro, #CCE8FF in tema chiaro) per renderla immediatamente distinguibile rispetto alle schede inattive.\n• Indicatori Visivi Spunta Menu Cartelle di Sistema: risolto il problema di mancata visualizzazione dello stato nei menu a tendina; introdotto supporto completo ai checkmark (✓) nei MenuItem e aggiunti prefissi visivi espliciti [✓] / [  ] per identificare all'istante quali cartelle sono visibili o nascoste."
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.54/RaPiDSSH-v1.4.54-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.54:\n\n• Persistenza Sessioni e Tema dopo Aggiornamento: risolto il problema per cui l'aggiornamento automatico non salvava le sessioni aperte né il tema impostato, garantendo il ripristino affidabile delle sessioni alla riapertura dell'applicazione.\n• Correzione Glifi di Spunta Menu: rimossa la duplicazione del carattere di spunta nei menu di visibilità delle cartelle di sistema.\n• Contrasto e Nitidezza Albero Server: ripristinato il corretto contrasto e colore pieno dei server disconnessi, evitando che appaiano sbiaditi o disabilitati in presenza di connessioni attive."
 }
