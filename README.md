@@ -2,19 +2,16 @@
 
 Repository ufficiale per la distribuzione e l'aggiornamento automatico di **RaPiDSSH** (Remote Desktop & SSH Session Manager).
 
-## 🚀 Ultima Versione: **v1.4.61**
+## 🚀 Ultima Versione: **v1.4.62**
 - **Data rilascio**: 2026-11-05
-- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.61-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.61/RaPiDSSH-v1.4.61-Portable.zip)
+- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.62-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.62/RaPiDSSH-v1.4.62-Portable.zip)
 - **Feed Manifest Aggiornamenti**: [version.json](https://raw.githubusercontent.com/cgabba/RaPiDSSH_release/main/version.json)
 
 ### Novità di questa versione:
-Novità di RaPiDSSH v1.4.61:
+Novità di RaPiDSSH v1.4.62:
 
-• Autenticazione SSH tramite Chiavi Private: introdotto il supporto all'autenticazione con chiavi SSH (Ed25519, RSA, ECDSA) sia per terminali interattivi che per sessioni SFTP, con gestione opzionale di passphrase cifrata.
-• Gestione Portabile 'ssh_keys': le chiavi sono organizzate nella sottocartella locale 'ssh_keys'; la procedura di selezione copia automaticamente la chiave nella root portabile per garantire che i collegamenti funzionino sempre anche spostando l'app su un'altra unità o chiavetta USB.
-• Backup Completo (.rsbak) con Chiavi Cifrate: il backup e ripristino di sistema include l'intero archivio 'ssh_keys' all'interno del pacchetto protetto da cifratura AES-256-GCM.
-• Password Utente Preservata: il campo password rimane indipendente e consultabile per l'esecuzione di comandi 'su' o 'sudo' all'interno delle sessioni SSH.
-• Fix Tema Menu Contestuale Editor di Testo: risolto il problema di contrasto dei menu contestuali nativi (Taglia, Copia, Incolla) nelle aree di testo e note, ora perfettamente integrati con il tema Dark attivo.
+• Riproduzione Completa Video Pop-up: risolto il problema di chiusura prematura causata da eventi MediaEnded spuri generati dal motore DirectShow all'avvio. La durata è ora monitorata tramite timer ad alta precisione a tempo reale e un watchdog protetto da 8,5 secondi.
+• Dimensioni e Posizionamento Ottimizzati: la finestra video pop-up adotta le dimensioni native 16:9 senza alterare la superficie di rendering durante la riproduzione, garantendo stabilità video fluida.
 
 ---
 *Per il codice sorgente e la documentazione del progetto, visitare il repository principale.*
