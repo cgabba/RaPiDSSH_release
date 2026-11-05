@@ -1,6 +1,6 @@
 {
-  "version": "1.4.54",
-  "releaseDate": "2026-11-04",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.54/RaPiDSSH-v1.4.54-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.54:\n\n• Persistenza Sessioni e Tema dopo Aggiornamento: risolto il problema per cui l'aggiornamento automatico non salvava le sessioni aperte né il tema impostato, garantendo il ripristino affidabile delle sessioni alla riapertura dell'applicazione.\n• Correzione Glifi di Spunta Menu: rimossa la duplicazione del carattere di spunta nei menu di visibilità delle cartelle di sistema.\n• Contrasto e Nitidezza Albero Server: ripristinato il corretto contrasto e colore pieno dei server disconnessi, evitando che appaiano sbiaditi o disabilitati in presenza di connessioni attive."
+  "version": "1.4.55",
+  "releaseDate": "2026-11-05",
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.55/RaPiDSSH-v1.4.55-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.55:\n\n• Gerarchia Visiva Dinamica dell'Albero Server: quando non ci sono connessioni attive tutti i server mostrano il loro colore pieno standard (nero solido in tema chiaro). All'apertura di una o più sessioni, i server inattivi passano a un sobrio grigio discreto per abbattere il rumore visivo, le connessioni attive in background rimangono in colore pieno con indicatore verde vivo ▶, e la sessione correntemente in primo piano viene evidenziata in grassetto con accento visivo dedicato.\n• Crash Recovery Journal in Tempo Reale: introdotto il salvataggio incrementale atomico dello stato delle sessioni su active_sessions.json ad ogni apertura/chiusura scheda o finestra flottante, garantendo il ripristino istantaneo di tutte le sessioni anche in caso di arresto forzato o crash dell'applicazione."
 }
