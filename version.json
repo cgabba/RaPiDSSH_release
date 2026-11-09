@@ -1,6 +1,6 @@
 {
-  "version": "1.4.65",
-  "releaseDate": "2026-11-06",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.65/RaPiDSSH-v1.4.65-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.65:\n\n• Supporto Nativo UltraVNC MS-Logon II (Tipo 113 / 0x71): implementata direttamente in C# la negoziazione crittografica Diffie-Hellman a 64 bit e la cifratura a blocchi DES (rfbEncryptBytes2) per consentire l'accesso a server UltraVNC protetti con autenticazione utente/dominio Windows (MS-Logon II), senza richiedere DLL o binari terzi.\n• Bridge Stream VNC Ibrido: introdotto MsLogonBridgeStream che completa l'autenticazione Windows ad alto livello sul socket e instrada in modo trasparente il flusso RFB al motore grafico per il rendering del desktop e la gestione completa di mouse e tastiera."
+  "version": "1.4.66",
+  "releaseDate": "2026-11-09",
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.66/RaPiDSSH-v1.4.66-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.66:\n\n• Correzione Crittografica UltraVNC MS-Logon II: allineato rigorosamente l'algoritmo di cifratura rfbEncryptBytes2 alle specifiche standard UltraVNC (formato Big-Endian della chiave Diffie-Hellman, IV iniziale a 64 bit e cifratura FIPS 46 DES pura senza inversione di bit), consentendo l'autenticazione con successo su server UltraVNC protetti con account Windows e domini Active Directory.\n• Supporto Asincrono Completo Bridge Stream VNC: integrati gli override ReadAsync e WriteAsync in MsLogonBridgeStream e PreHandshakeStream per garantire un flusso continuo e privo di blocchi durante il rendering grafico e la gestione input."
 }
