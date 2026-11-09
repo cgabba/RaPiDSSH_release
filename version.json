@@ -1,6 +1,6 @@
 {
-  "version": "1.4.68",
+  "version": "1.4.69",
   "releaseDate": "2026-11-09",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.68/RaPiDSSH-v1.4.68-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.68:\n\n• Normalizzazione Automatica NTLM per UltraVNC MS-Logon II: risolta l'incompatibilità nell'autenticazione con credenziali di dominio contenenti suffissi DNS/FQDN (es. 'dominio.it\\utente' o formato UPN 'utente@dominio.it'). Il motore VNC converte automaticamente il dominio nel formato NetBIOS piatto richiesto dall'SSP NTLM di Windows, prevenendo il rifiuto delle credenziali.\n• Gestione Avanzata Protezione Anti-Brute-Force: rilevamento dello stato di blocco temporaneo dell'IP lato server UltraVNC con avviso informativo chiaro sui tempi di attesa per il ripristino."
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.69/RaPiDSSH-v1.4.69-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.69:\n\n• Normalizzazione Automatica NTLM per UltraVNC MS-Logon II: risolta l'incompatibilità nell'autenticazione con credenziali di dominio contenenti suffissi DNS/FQDN (es. 'dominio.it\\utente' o formato UPN 'utente@dominio.it'). Il motore VNC converte automaticamente il dominio nel formato NetBIOS piatto richiesto dall'SSP NTLM di Windows, prevenendo il rifiuto delle credenziali.\n• Gestione Avanzata Protezione Anti-Brute-Force: rilevamento dello stato di blocco temporaneo dell'IP lato server UltraVNC con avviso informativo chiaro sui tempi di attesa per il ripristino."
 }
