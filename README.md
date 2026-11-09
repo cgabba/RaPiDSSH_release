@@ -2,13 +2,13 @@
 
 Repository ufficiale per la distribuzione e l'aggiornamento automatico di **RaPiDSSH** (Remote Desktop & SSH Session Manager).
 
-## 🚀 Ultima Versione: **v1.4.68**
+## 🚀 Ultima Versione: **v1.4.69**
 - **Data rilascio**: 2026-11-09
-- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.68-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.68/RaPiDSSH-v1.4.68-Portable.zip)
+- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.69-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.69/RaPiDSSH-v1.4.69-Portable.zip)
 - **Feed Manifest Aggiornamenti**: [version.json](https://raw.githubusercontent.com/cgabba/RaPiDSSH_release/main/version.json)
 
 ### Novità di questa versione:
-Novità di RaPiDSSH v1.4.68:
+Novità di RaPiDSSH v1.4.69:
 
 • Normalizzazione Automatica NTLM per UltraVNC MS-Logon II: risolta l'incompatibilità nell'autenticazione con credenziali di dominio contenenti suffissi DNS/FQDN (es. 'dominio.it\utente' o formato UPN 'utente@dominio.it'). Il motore VNC converte automaticamente il dominio nel formato NetBIOS piatto richiesto dall'SSP NTLM di Windows, prevenendo il rifiuto delle credenziali.
 • Gestione Avanzata Protezione Anti-Brute-Force: rilevamento dello stato di blocco temporaneo dell'IP lato server UltraVNC con avviso informativo chiaro sui tempi di attesa per il ripristino.
