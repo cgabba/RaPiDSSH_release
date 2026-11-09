@@ -1,6 +1,6 @@
 {
-  "version": "1.4.66",
+  "version": "1.4.67",
   "releaseDate": "2026-11-09",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.66/RaPiDSSH-v1.4.66-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.66:\n\n• Correzione Crittografica UltraVNC MS-Logon II: allineato rigorosamente l'algoritmo di cifratura rfbEncryptBytes2 alle specifiche standard UltraVNC (formato Big-Endian della chiave Diffie-Hellman, IV iniziale a 64 bit e cifratura FIPS 46 DES pura senza inversione di bit), consentendo l'autenticazione con successo su server UltraVNC protetti con account Windows e domini Active Directory.\n• Supporto Asincrono Completo Bridge Stream VNC: integrati gli override ReadAsync e WriteAsync in MsLogonBridgeStream e PreHandshakeStream per garantire un flusso continuo e privo di blocchi durante il rendering grafico e la gestione input."
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.67/RaPiDSSH-v1.4.67-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.67:\n\n• Motore Crittografico UltraVNC MS-Logon II (d3des AT&T): implementato il motore crittografico dedicato UltraVncCrypto replicando fedelmente l'algoritmo d3des (AT&T Laboratories Cambridge) impiegato dai sorgenti UltraVNC per l'autenticazione MS-Logon II (Tipo 113). Risolve il disallineamento della schedulazione delle sottochiavi DES standard, garantendo l'autenticazione trasparente e senza errori verso server Windows in dominio o locali."
 }
