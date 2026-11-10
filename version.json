@@ -1,6 +1,6 @@
 {
-  "version": "1.4.73",
+  "version": "1.4.74",
   "releaseDate": "2026-11-10",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.73/RaPiDSSH-v1.4.73-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.73:\n\n• Pulizia Menu Contestuale File e Cartelle: rimossi i comandi 'Nascondi questa cartella' e 'Cartelle di Sistema' dal menu contestuale del file di connessione (.enc) e delle cartelle utente, riservandoli rigorosamente alle sole Cartelle di Sistema.\n• Comando 'Proprietà' sul File di Connessione: aggiunto il comando Proprietà sul menu contestuale del file database che permette di personalizzare icona, nome e impostare le credenziali predefinite a livello di intero archivio.\n• Ereditarietà Credenziali dalla Mamma (File .enc): abilitata per le cartelle e i server creati direttamente nella root del file la possibilità di ereditare automaticamente le credenziali definite a livello di file, con preview e risoluzione a cascata naturale."
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.74/RaPiDSSH-v1.4.74-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.74:\n\n• Ripristino Comando 'Nascondi' e Menu 'Cartelle di Sistema' su Cartelle di Sistema: risolto il mancato rendering delle voci contestuali di gestione visibilità quando si clicca con il tasto destro sulle cartelle speciali (Preferiti, Recenti, Attive, Tutti i Server, Tag, Griglie), mantenendole rigorosamente escluse da file .enc e cartelle standard."
 }
