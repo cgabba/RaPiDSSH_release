@@ -1,6 +1,6 @@
 {
-  "version": "1.4.79",
+  "version": "1.4.80",
   "releaseDate": "2026-11-11",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.79/RaPiDSSH-v1.4.79-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.79:\n\n• Miglioramento Sicurezza 'Digita Password' su SSH e Telnet: rimosso l'inserimento della password negli appunti di Windows (Clipboard) al clic su '🔑 Digita Password', preservando intatti i dati precedentemente copiati dall'utente ed evitando l'esposizione accidentale delle credenziali."
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.80/RaPiDSSH-v1.4.80-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.80:\n\n• Utility Multi-Ping - Registrazione Log su File: aggiunta la registrazione continua dei ping su file (.log) indipendente per ogni singola card/host, con timestamp completo e statistiche finali.\n• Utility Multi-Ping - Allarmi Acustici Intelligenti: avviso acustico immediato in caso di caduta connessione o mancata risposta (ripetuto ogni 10 secondi finché persiste il disservizio) e segnale sonoro di ripristino quando l'host torna raggiungibile.\n• Ergonomia e Controlli Audio: la finestra di ping si apre silenziata (Muto) di default per evitare disturbi indesiderati; pulsante Master Audio per abilitazione globale e controlli individuali per silenziare singole macchine."
 }
