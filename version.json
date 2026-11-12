@@ -1,6 +1,6 @@
 {
-  "version": "1.4.80",
-  "releaseDate": "2026-11-11",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.80/RaPiDSSH-v1.4.80-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.80:\n\n• Utility Multi-Ping - Registrazione Log su File: aggiunta la registrazione continua dei ping su file (.log) indipendente per ogni singola card/host, con timestamp completo e statistiche finali.\n• Utility Multi-Ping - Allarmi Acustici Intelligenti: avviso acustico immediato in caso di caduta connessione o mancata risposta (ripetuto ogni 10 secondi finché persiste il disservizio) e segnale sonoro di ripristino quando l'host torna raggiungibile.\n• Ergonomia e Controlli Audio: la finestra di ping si apre silenziata (Muto) di default per evitare disturbi indesiderati; pulsante Master Audio per abilitazione globale e controlli individuali per silenziare singole macchine."
+  "version": "1.4.81",
+  "releaseDate": "2026-11-12",
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.81/RaPiDSSH-v1.4.81-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.81:\n\n• Configurazione Audio Utility Ping: audio generale (Master Audio) attivo per impostazione predefinita, con singoli host silenziati di default (🔕); abilitando la campanella (🔔) su uno specifico server in fault l'allarme sonoro viene riprodotto istantaneamente.\n• Risoluzione Minimizzazione Finestra Principale: rimossa la dipendenza di ownership (Owner) su NetworkPingWindow e impostata come finestra flottante autonoma di primo livello nella barra delle applicazioni con icona dedicata, impedendo a Windows di minimizzare RaPiDSSH alla chiusura dell'utility."
 }
