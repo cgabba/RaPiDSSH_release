@@ -1,6 +1,6 @@
 {
-  "version": "1.4.82",
+  "version": "1.4.83",
   "releaseDate": "2026-11-12",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.82/RaPiDSSH-v1.4.82-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.82:\n\n• Icone Vettoriali SVG per Card Ping: sostituite le icone/emoji testuali sui pulsanti di ciascuna card con grafiche vettoriali SVG ad altissima definizione (Audio ON/OFF, Registrazione Log, Pausa/Riprendi, Reset, Copia e Chiusura), senza rettangoli di focus tratteggiati e con sfondi coerenti col tema.\n• Risoluzione Scorrimento Log Ping: risolto il blocco dello scorrimento nei log delle card grazie all'auto-scroll automatico verso il basso all'arrivo di nuove righe e alla propagazione della rotella del mouse quando si raggiungono i margini del log.\n• Qualità Grafica RDP & Antialiasing Font (ClearType): introdotte impostazioni dedicate in 'Impostazioni -> Generale' per abilitare il Font Smoothing (ClearType) e la composizione desktop (Aero / finestre arrotondate) nelle sessioni Desktop Remoto (RDP), eliminando l'aspetto spigoloso e seghettato dei caratteri."
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.83/RaPiDSSH-v1.4.83-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.83:\n\n• Risoluzione Taglio e Disallineamento Icone Card Ping: eliminato il padding globale restrittivo (8px) dai pulsanti delle card che causava il troncamento di quasi metà dell'icona; impostato 'Padding=0' con allineamento centrato e rettangoli di canvas trasparenti 'viewBox' sulle risorse DrawingImage vettoriali per garantire centratura perfetta, proporzioni corrette e zero tagli su tutte le icone (Audio, Log/Floppy, Pausa/Riprendi, Reset, Copia e Chiusura)."
 }
