@@ -2,16 +2,17 @@
 
 Repository ufficiale per la distribuzione e l'aggiornamento automatico di **RaPiDSSH** (Remote Desktop & SSH Session Manager).
 
-## 🚀 Ultima Versione: **v1.4.81**
+## 🚀 Ultima Versione: **v1.4.82**
 - **Data rilascio**: 2026-11-12
-- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.81-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.81/RaPiDSSH-v1.4.81-Portable.zip)
+- **Pacchetto Portable (Zero Installazione)**: [Scarica RaPiDSSH-v1.4.82-Portable.zip](https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.82/RaPiDSSH-v1.4.82-Portable.zip)
 - **Feed Manifest Aggiornamenti**: [version.json](https://raw.githubusercontent.com/cgabba/RaPiDSSH_release/main/version.json)
 
 ### Novità di questa versione:
-Novità di RaPiDSSH v1.4.81:
+Novità di RaPiDSSH v1.4.82:
 
-• Configurazione Audio Utility Ping: audio generale (Master Audio) attivo per impostazione predefinita, con singoli host silenziati di default (🔕); abilitando la campanella (🔔) su uno specifico server in fault l'allarme sonoro viene riprodotto istantaneamente.
-• Risoluzione Minimizzazione Finestra Principale: rimossa la dipendenza di ownership (Owner) su NetworkPingWindow e impostata come finestra flottante autonoma di primo livello nella barra delle applicazioni con icona dedicata, impedendo a Windows di minimizzare RaPiDSSH alla chiusura dell'utility.
+• Icone Vettoriali SVG per Card Ping: sostituite le icone/emoji testuali sui pulsanti di ciascuna card con grafiche vettoriali SVG ad altissima definizione (Audio ON/OFF, Registrazione Log, Pausa/Riprendi, Reset, Copia e Chiusura), senza rettangoli di focus tratteggiati e con sfondi coerenti col tema.
+• Risoluzione Scorrimento Log Ping: risolto il blocco dello scorrimento nei log delle card grazie all'auto-scroll automatico verso il basso all'arrivo di nuove righe e alla propagazione della rotella del mouse quando si raggiungono i margini del log.
+• Qualità Grafica RDP & Antialiasing Font (ClearType): introdotte impostazioni dedicate in 'Impostazioni -> Generale' per abilitare il Font Smoothing (ClearType) e la composizione desktop (Aero / finestre arrotondate) nelle sessioni Desktop Remoto (RDP), eliminando l'aspetto spigoloso e seghettato dei caratteri.
 
 ---
 *Per il codice sorgente e la documentazione del progetto, visitare il repository principale.*
