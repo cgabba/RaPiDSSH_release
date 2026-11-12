@@ -1,6 +1,6 @@
 {
-  "version": "1.4.81",
+  "version": "1.4.82",
   "releaseDate": "2026-11-12",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.81/RaPiDSSH-v1.4.81-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.81:\n\n• Configurazione Audio Utility Ping: audio generale (Master Audio) attivo per impostazione predefinita, con singoli host silenziati di default (🔕); abilitando la campanella (🔔) su uno specifico server in fault l'allarme sonoro viene riprodotto istantaneamente.\n• Risoluzione Minimizzazione Finestra Principale: rimossa la dipendenza di ownership (Owner) su NetworkPingWindow e impostata come finestra flottante autonoma di primo livello nella barra delle applicazioni con icona dedicata, impedendo a Windows di minimizzare RaPiDSSH alla chiusura dell'utility."
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.82/RaPiDSSH-v1.4.82-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.82:\n\n• Icone Vettoriali SVG per Card Ping: sostituite le icone/emoji testuali sui pulsanti di ciascuna card con grafiche vettoriali SVG ad altissima definizione (Audio ON/OFF, Registrazione Log, Pausa/Riprendi, Reset, Copia e Chiusura), senza rettangoli di focus tratteggiati e con sfondi coerenti col tema.\n• Risoluzione Scorrimento Log Ping: risolto il blocco dello scorrimento nei log delle card grazie all'auto-scroll automatico verso il basso all'arrivo di nuove righe e alla propagazione della rotella del mouse quando si raggiungono i margini del log.\n• Qualità Grafica RDP & Antialiasing Font (ClearType): introdotte impostazioni dedicate in 'Impostazioni -> Generale' per abilitare il Font Smoothing (ClearType) e la composizione desktop (Aero / finestre arrotondate) nelle sessioni Desktop Remoto (RDP), eliminando l'aspetto spigoloso e seghettato dei caratteri."
 }
