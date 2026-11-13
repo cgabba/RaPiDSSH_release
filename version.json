@@ -1,6 +1,6 @@
 {
-  "version": "1.4.83",
-  "releaseDate": "2026-11-12",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.83/RaPiDSSH-v1.4.83-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.83:\n\n• Risoluzione Taglio e Disallineamento Icone Card Ping: eliminato il padding globale restrittivo (8px) dai pulsanti delle card che causava il troncamento di quasi metà dell'icona; impostato 'Padding=0' con allineamento centrato e rettangoli di canvas trasparenti 'viewBox' sulle risorse DrawingImage vettoriali per garantire centratura perfetta, proporzioni corrette e zero tagli su tutte le icone (Audio, Log/Floppy, Pausa/Riprendi, Reset, Copia e Chiusura)."
+  "version": "1.4.84",
+  "releaseDate": "2026-11-13",
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.84/RaPiDSSH-v1.4.84-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.84:\n\n• Cartella Predefinita Log Ping su 'Logs/': apertura e salvataggio dei file di log e report CSV direttamente puntati sulla cartella dedicata 'Logs/' dell'applicazione anziché ereditare cartelle di backup o temporanee.\n• Ordinamento Numerico IP nello Scanner di Sottorete: inserimento in tempo reale e ordinamento nativo per valore intero a 32-bit degli ottetti IPv4 (es. 192.168.1.1, 192.168.1.4, 192.168.1.10, 192.168.1.102) anziché l'ordinamento alfabetico/lessicografico.\n• Prevenzione Blocco/Hang Sessioni RDP su Disconnessione Rete: configurazione di timeout di arresto RDP rapidi (2s anziché 30s di blocco del thread UI), keep-alive ogni 5 secondi, gestione eventi di auto-riconnessione con badge visivo informativo e rilascio immediato del controllo host per prevenire qualsiasi freeze dell'interfaccia quando l'IP remoto non risponde."
 }
