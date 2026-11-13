@@ -1,6 +1,6 @@
 {
-  "version": "1.4.85",
+  "version": "1.4.86",
   "releaseDate": "2026-11-13",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.85/RaPiDSSH-v1.4.85-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.85:\n\n• Sfondo Animato 'Matrix Digital Rain' durante la Pausa Caffè: introdotta un'animazione fluida in stile cascata di codice verde Matrix (caratteri Katakana, numeri, lettere e operatori con testa luminescente e scia sfumata) come sfondo della schermata di blocco 'Pausa Caffè' (Ctrl+L).\n• Prestazioni e Consumi Zero a Riposo: rendering vettoriale ultra-veloce accelerato via hardware tramite DirectX GlyphRun e pennelli congelati (< 1% CPU durante il blocco), con arresto automatico completo del motore grafico e 0% CPU quando l'applicazione viene sbloccata."
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.86/RaPiDSSH-v1.4.86-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.86:\n\n• Fluidità 60/144 fps VSync & Antialiasing Sub-Pixel: migrazione del motore Matrix a CompositionTarget.Rendering con delta-time continuo e scorrimento sub-pixel; rimossa la scalettatura dei caratteri con font vettoriali moderni (Yu Gothic / Meiryo / Consolas) e TextRenderingMode.Grayscale.\n• Menu Segreto 'Matrix Subsystem Console': accessibile con 5 click rapidi sulla tazzina '☕' o scorciatoia Ctrl+Shift+M per personalizzare frasi da trasmettere, frequenza di comparsa e palette di colori (Verde Matrix, Cyberpunk Cyan, Amber CRT, Red Alert).\n• Frasi Personalizzate con Lettura dall'Alto in Basso: proiezione periodica di frasi personalizzate che scendono leggibili rigorosamente dall'alto verso il basso in bianco brillante."
 }
