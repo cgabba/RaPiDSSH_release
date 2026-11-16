@@ -1,6 +1,6 @@
 {
-  "version": "1.4.90",
+  "version": "1.4.91",
   "releaseDate": "2026-11-16",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.90/RaPiDSSH-v1.4.90-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.90:\n\n• Modifica Rapida Nome Server in Scheda Dashboard: aggiunta icona a matita interattiva (e doppio clic sul titolo) nella barra d'intestazione della Scheda del Server per rinominare il server direttamente in-place senza aprire le proprietà.\n• Fix Chiamata LoggerService: corretta invocazione di LoggerService.Instance.LogInfo durante l'evento di rinomina per ripristinare il flusso CI di compilazione e rilascio automatico."
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.91/RaPiDSSH-v1.4.91-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.91:\n\n• Gestione Server con Tag 'Spento':\n  - Stile Barrato & Attenuato nell'Albero: i server con tag 'spento' vengono visualizzati nell'albero delle connessioni con il nome barrato (strikethrough) e opacità attenuata al 55% per un colpo d'occhio immediato dello stato offline.\n  - Titoli Scheda e Tab Barrati: il nome del server appare barrato e attenuato anche nel titolo principale della Scheda del Server e negli header delle schede aperte.\n  - Conferma di Sicurezza alla Connessione: richiesta esplicita di conferma prima di avviare una sessione (doppio clic, menu contestuale, 'Accedi come...', SFTP o dashboard) verso macchine contrassegnate come spente."
 }
