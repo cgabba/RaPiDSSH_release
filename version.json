@@ -1,6 +1,6 @@
 {
-  "version": "1.4.95",
+  "version": "1.4.96",
   "releaseDate": "2026-11-18",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.95/RaPiDSSH-v1.4.95-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.95:\n\n• Fix Compilazione CI:\n  - Risolta ambiguità riferimento Clipboard in MainWindow.xaml.cs con qualificazione esplicita System.Windows.Clipboard.\n  - Corretta iterazione figli in FolderItem.NotifyResolveChanged() tramite Children invece di SubFolders/Servers.\n  - Nuova animazione Matrix OMV Green Rain ad altissima fluidità."
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.96/RaPiDSSH-v1.4.96-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.96:\n\n• Rendering Matrix OMV Green Rain ad Altissima Fluidità (RenderTargetBitmap):\n  - Implementata architettura cumulativa identica a HTML5 Canvas tramite RenderTargetBitmap: a ogni frame vengono disegnati solo il velo nero al 5% e il singolo nuovo carattere per colonna (~100 caratteri invece di 6.000).\n  - Eliminato ogni lag e freeze dell'interfaccia: rendering istantaneo hardware con 1 singola DrawImage in OnRender.\n  - Frasi easter egg mimetizzate e pieno supporto ai 4 temi cromatici (Verde, Ciano, Ambra, Rosso)."
 }
