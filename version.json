@@ -1,6 +1,6 @@
 {
-  "version": "1.4.101",
+  "version": "1.4.102",
   "releaseDate": "2026-11-27",
-  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.101/RaPiDSSH-v1.4.101-Portable.zip",
-  "changelog": "Novità di RaPiDSSH v1.4.101:\n\n• Miglioramento UI Generatore Password Sicure:\n  - Aumentata l'altezza predefinita della finestra (715px) per mostrare tutte le opzioni senza barra di scorrimento superflua."
+  "downloadUrl": "https://github.com/cgabba/RaPiDSSH_release/releases/download/v1.4.102/RaPiDSSH-v1.4.102-Portable.zip",
+  "changelog": "Novità di RaPiDSSH v1.4.102:\n\n• Fix Adattamento Automatico Finestra Generatore Password:\n  - Impostato SizeToContent=\"Height\" su PasswordGeneratorWindow per adattare esattamente l'altezza della finestra al contenuto senza spazi vuoti né scrollbar."
 }
